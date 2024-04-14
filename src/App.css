@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #2f3640;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 400px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0,0, 0.2);
+}
+.input-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 2px solid #70e6f3;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.input-container img{
+  width: 22px; 
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.cityInput{
+  flex: 1;
+  height: 20px;
+  border: none;
+  font-size: 20px;
+  outline: none;
+  padding: 10px;
+}
+.image{
+  text-align: center;
+  height: 130px;
+  margin: 15px;
+  margin-bottom: 30px;
+}
+.image img{
+  width: 140px;
+  height: 140px;
+}
+.temp,.location,.country{
+  margin-top: 8px;
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.temp{
+  font-weight: 600;
+}
+.location{
+  color: #ffbc00;
+  font-weight: 600;
+  font-size: 35px;
+}
+.country{
+  font-size: 15px;
+  font-weight: 500;
+  color: #888;
+}
+.cord{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  margin-top: 5px;
+}
+.cord div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cord div span{
+  font-size: 16px;
+}
+.cord div span:nth-child(2){
+  font-size: 20px;
+  font-weight: bold;
+  color: #666;
+  
+}
+.data-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.element{
+  text-align: center;
+}
+.text{
+  font-size: 16px;
+  color: #888;
+}
+.copyright{
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+}
+.copyright span{
+  color: #333;
+}
+
+.loading-message,.error-message,.city-error{
+  margin-top: 5px;
+  color: #888;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
