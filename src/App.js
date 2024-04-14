@@ -134,7 +134,7 @@ const search = async () => {
   return (
     <div className="container">
       <div className='input-container'>
-        <input type='text ' className='cityInput' placeholder='search city' onChange={handle} value={tcity}
+        <input type='text ' className='cityInput' placeholder='search cities' onChange={handle} value={tcity}
         onKeyDown={handlekeydown}
         ></input>
         <div>
